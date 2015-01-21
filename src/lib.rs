@@ -9,12 +9,17 @@
 extern crate log;
 extern crate rand;
 
+extern crate chrono;
+
 pub use tls::Tls;
 pub use client::TlsClient;
 
 #[macro_use]
 pub mod macros;
 pub mod util;
+
+#[macro_use]
+pub mod der;
 
 // basic crypto primitives
 pub mod crypto;

@@ -8,3 +8,4 @@ authors = ["klutzytheklutzy@gmail.com"]
 
 log = "*"
 rand = "*"
+chrono = "*"
