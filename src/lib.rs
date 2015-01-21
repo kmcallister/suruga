@@ -39,4 +39,7 @@ pub mod handshake;
 pub mod tls;
 pub mod client;
 
+#[macro_use]
+pub mod x509;
+
 #[cfg(test)] mod test;
